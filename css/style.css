@@ -472,7 +472,21 @@ footer h4 {
   text-indent: 1px;
 }
 
-footer section {
+footer .section-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+footer .section-footer .logo-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,8 +501,13 @@ footer section {
   background: #252b46;
 }
 
-footer section img {
+footer .section-footer .logo-footer img {
   margin-top: 3rem;
+}
+
+footer .section-footer .conteinerd {
+  background-color: #252b46;
+  width: 100%;
 }
 
 footer ::-webkit-input-placeholder {
