@@ -398,6 +398,8 @@ main .content-question ul .row-list {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -409,18 +411,40 @@ main .content-question ul .row-list {
   border-bottom: 1px solid #9194a1;
 }
 
+main .content-question ul .row-list p {
+  width: 97%;
+  text-align: left;
+}
+
+main .content-question ul .row-list p:hover {
+  color: #fa5757;
+}
+
 main .content-question ul .row-list img {
   padding-bottom: 8%;
+  width: 3%;
+}
+
+main .content-question ul .row-list img:hover {
+  fill: #fa5757;
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 main .content-question ul .row-list .desp {
-  background-color: yellow;
+  width: 100%;
   padding: 20px;
   display: none;
+  -webkit-transition: all 3s ease-in;
+  transition: all 3s ease-in;
 }
 
 main .content-question ul .row-list img:hover + .desp {
   display: block;
+  -webkit-transition: all 3s ease-in;
+  transition: all 3s ease-in;
 }
 
 main .button-moreinfo {
@@ -747,7 +771,7 @@ footer ::placeholder {
             justify-content: space-between;
     width: 50%;
     border-bottom: 1px solid #9194a1;
-    height: 7vh;
+    height: 8vh;
     margin-bottom: 3rem;
   }
   main section.features-wrapper ul li {
@@ -949,6 +973,7 @@ footer ::placeholder {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100%;
+    background-color: #252b46;
   }
   footer .section-footer .logo-footer {
     display: -webkit-box;
