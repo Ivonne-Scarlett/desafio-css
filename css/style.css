@@ -503,6 +503,9 @@ footer .section-footer .logo-footer {
 
 footer .section-footer .logo-footer img {
   margin-top: 3rem;
+  background-color: transparent;
+  -webkit-filter: invert(100%) saturate(0%);
+          filter: invert(100%) saturate(0%);
 }
 
 footer .section-footer .conteinerd {
@@ -946,10 +949,8 @@ footer ::placeholder {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100%;
-    height: 12vh;
   }
   footer .section-footer .logo-footer {
-    width: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -963,17 +964,16 @@ footer ::placeholder {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 7%;
+    padding-left: 7%;
   }
   footer .section-footer .logo-footer .img-footer {
     padding: 0;
     margin: 0;
-    background-color: white;
-    -webkit-filter: invert(100%) saturate(0%) sepia(0%) contrast(100%) brightness(100%);
-            filter: invert(100%) saturate(0%) sepia(0%) contrast(100%) brightness(100%);
+    background-color: transparent;
+    -webkit-filter: invert(100%) saturate(0%);
+            filter: invert(100%) saturate(0%);
   }
   footer .section-footer .conteinerd {
-    width: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -987,7 +987,7 @@ footer ::placeholder {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: 10%;
+    padding-right: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */
