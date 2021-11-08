@@ -78,6 +78,7 @@ header{
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
+        cursor: pointer;
         
     }  
 }
@@ -264,6 +265,7 @@ main{
                 border-radius: 0.25rem;
                 border: none;
                 width: 80%;
+                cursor: pointer;
             }    
             button:hover{
                 background-color: white;
@@ -480,6 +482,7 @@ margin: 1rem;
             padding: 0.5rem;
             padding-left: 3%;
             text-align: center;
+            cursor: pointer;
             }
         button:hover{
             background-color: white;
@@ -514,7 +517,8 @@ margin: 1rem;
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;                
-                width: 70%;              
+                width: 70%; 
+                cursor: pointer;             
             }
             button:hover{
                 border:1px solid $Psoftblue;
@@ -578,8 +582,7 @@ margin: 1rem;
                     justify-content: flex-start;
                     margin-bottom: 5rem;
                     padding-left: 5%;
-
-                    
+                    cursor: pointer;                   
                     
                     .buttons-bookmark{
                     background-color: $Psoftblue;
@@ -591,6 +594,7 @@ margin: 1rem;
                     align-items: flex-start;
                     display: block;
                     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+                    cursor: pointer;
                     }
                     button:hover{
                         border:1px solid $Psoftblue;
@@ -638,8 +642,7 @@ margin: 1rem;
             }
             .content-question{
                 width: 60%;
-            }
-                       
+            }                       
 
             .buttons{
                 display: flex;
@@ -653,7 +656,7 @@ margin: 1rem;
                 width: 100%;                
                 height: 5vh;
                 text-align: center; 
-                  
+                cursor: pointer;                  
             }
             button:hover{
                 background-color: white;
@@ -687,6 +690,7 @@ margin: 1rem;
                 padding: 0.5rem;
                 padding-left: 3%;
                 text-align: center;
+                cursor: pointer;
             }
             button:hover{
                 background-color: white;
@@ -702,8 +706,7 @@ margin: 1rem;
             width: 100%;
             background-color: $Nverydark;
             
-            .logo-footer{
-                
+            .logo-footer{                
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
@@ -720,8 +723,7 @@ margin: 1rem;
                 color: $Psoftred;
             }
             
-            .conteinerd{
-                
+            .conteinerd{                
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-end;
