@@ -771,7 +771,7 @@ footer ::placeholder {
             justify-content: space-between;
     width: 50%;
     border-bottom: 1px solid #9194a1;
-    height: 8vh;
+    height: 10vh;
     margin-bottom: 3rem;
   }
   main section.features-wrapper ul li {
@@ -891,10 +891,6 @@ footer ::placeholder {
   main section.p-quest .content-question {
     width: 60%;
   }
-  main section.p-quest .button-moreinfo {
-    width: 10%;
-    height: 4vh;
-  }
   main section.p-quest .buttons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -911,6 +907,7 @@ footer ::placeholder {
     border: none;
     width: 100%;
     height: 5vh;
+    text-align: center;
   }
   main section.p-quest button:hover {
     background-color: white;
@@ -998,6 +995,9 @@ footer ::placeholder {
     -webkit-filter: invert(100%) saturate(0%);
             filter: invert(100%) saturate(0%);
   }
+  footer .section-footer a:hover {
+    color: #fa5757;
+  }
   footer .section-footer .conteinerd {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1013,6 +1013,9 @@ footer ::placeholder {
         -ms-flex-align: center;
             align-items: center;
     padding-right: 10%;
+  }
+  footer .section-footer .conteinerd img:hover {
+    background-color: #fa5757;
   }
 }
 /*# sourceMappingURL=style.css.map */
